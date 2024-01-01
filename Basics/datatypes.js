@@ -1,5 +1,8 @@
+"use strict";// treat all code as new version of js
+//alert (3+3)// on browser not here 
+
 //string
-let name="meak"
+let name="Beluga"
 //number
 let age=12
 //undefined
@@ -8,7 +11,7 @@ let address;
 let salary=null
 
 //bool
-married=false
+let married=false
 
 //printing
 console.log(name,age,address,salary,married)
