@@ -28,3 +28,25 @@ console.log(typeof(married))
 // null => standalone value
 // undefined => 
 // symbol => unique
+
+//conversion of no into string  success
+let weight=68
+let  weightinstring= String (weight)
+console.log(typeof(weightinstring))
+console.log(weightinstring)
+
+//conversion of string into n0  notsucess
+let lastname="suchita"
+let lastnameconversion=Number(lastname)
+console.log(typeof(lastnameconversion))
+console.log(lastnameconversion)
+
+//bool to no success 
+let marriedtono=Number(married)
+console.log(typeof(marriedtono))
+console.log(marriedtono)
+// not suceess
+let password="33abf" 
+let passwordintonotry=Number(password)
+console.log(typeof(passwordintonotry))
+console.log(passwordintonotry)
