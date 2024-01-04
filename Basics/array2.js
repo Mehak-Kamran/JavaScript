@@ -14,6 +14,18 @@ let scoreflat=score.flat(Infinity)
 console.log(scoreflat)
 
 //STORE ANY OTHER IN ARRAY 
+player = 'ali'//string
+console.log(Array.isArray(player))
+console.log(Array.from(player))
+
+score1=6//no
+score2=7
+console.log(Array.of(score1,score2))
+
+
+
+
+
 
 
 
