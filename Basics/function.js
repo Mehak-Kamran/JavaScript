@@ -29,13 +29,13 @@ console.log(loginmessage())
 //ifelse
 function loginmessage(username){
     if(!username){
-        console.log("please enter username");
+        return"please enter username"
        
  }
  else
     return`${username} has logged in`
 }
-console.log(loginmessage())
+console.log(loginmessage('ash'))
 
 //
 function biasapp(userbias){
