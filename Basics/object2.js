@@ -38,6 +38,12 @@ let user1=[
     {id:25,name:'lo'}
 ]
 console.log(user1[1].name)
+//some meythods
+console.log(Object.keys(BTS))
+console.log(Object.values(BTS));
+console.log(Object.entries(BTS))
+
+console.log(BTS.hasOwnProperty('groupname'));
 
 
 
