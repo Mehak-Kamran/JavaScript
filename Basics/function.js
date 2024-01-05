@@ -33,8 +33,17 @@ function loginmessage(username){
        
  }
  else
-    console.log(`${username} has logged in`) 
+    return`${username} has logged in`
 }
 console.log(loginmessage())
 
 //
+function biasapp(userbias){
+    if(userbias){
+        return `${userbias} is your bias and the qualities are:`
+    }
+    else 
+          return'Please enter your Bts bias name'
+          
+}
+console.log(biasapp('jimin'))
