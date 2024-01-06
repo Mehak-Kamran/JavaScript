@@ -9,6 +9,7 @@
 //     return `${username} has logged in`
 // }
 
+
 // console.log(loginmessage('ash'))
 // console.log(`${username} has logged in`)
 
@@ -46,4 +47,29 @@ function biasapp(userbias){
           return'Please enter your Bts bias name'
           
 }
+
+
 console.log(biasapp('jimin'))
+
+function multiply(...num1){
+    return num1
+}
+console.log(multiply(2,4,5,6,7,8))
+
+let user={
+    idno:345,
+    ename:"fazal"
+
+}
+function print(anyObject){
+    console.log(user.idno);
+
+}
+print(user)
+
+//myarray=[100,4,6]
+function callarray(myarray){
+    console.log(myarray[1]);
+
+}
+callarray([100,2,5])
