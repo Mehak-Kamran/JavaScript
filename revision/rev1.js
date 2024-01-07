@@ -31,4 +31,22 @@ BP={
     members:["Lisa","Jenni","Jiso","Rose"],
     avgage:23
 }
-console.log(BP.members);
+
+let kpop={...BTS,...BP}
+console.log(kpop);
+console.log(BTS.genre)
+console.log(BP.members[2]);
+//rev
+let fish=new Object
+fish={
+    type1:"Rohu",
+    type2:"surmai",
+    type3:"mushqa"
+}
+let marlist=["apple","pen",fish]
+
+console.log(marlist)
+ 
+
+
+
