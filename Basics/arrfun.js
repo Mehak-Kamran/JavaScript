@@ -43,6 +43,15 @@ calli()
 //how you will use obj in arrow func 
 name=()=>({myname:"mehak"})
 name()
+course={
+fee:500,
+cost:8000,
+website:function(){
+    
+    console.log(this.fee);
+}
+}
+course.website()
 
 
 
