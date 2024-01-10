@@ -40,7 +40,9 @@ calli=()=>{
 calli()
 //this cannot be used in arrow func
 
-
+//how you will use obj in arrow func 
+name=()=>({myname:"mehak"})
+name()
 
 
 
