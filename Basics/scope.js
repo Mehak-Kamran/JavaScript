@@ -1,10 +1,12 @@
-let a=1
-var b=3
-//console.log(a,b);
-
-if(true){
-   a=4
- b=5
-    console.log(a,b);
+var a=300
+if(1){
+   var a=3
+let b=4
+const c=5
+console.log(a);
 }
-console.log(b);
+
+
+//console.log(b);//error
+//console.log(c);//error
+console.log(a);
