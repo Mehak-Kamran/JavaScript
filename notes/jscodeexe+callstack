@@ -1,0 +1,14 @@
+Global execution context
+==this
+
+two phases==memory allocation
+          ==excecution phases
+
+js is single threaded language
+works on stack memory ie LIFO
+if we call function in in another function , those function will be treated in stack memory
+
+=first program will be allocated in global execution context ie allocated in this 
+=then it will go through memory allocation
+=then in execution phase and in exe phase there may be another thread , and in that thread there will be
+  another exe and memory alloc phase and when its work will be over it will be deleted   
