@@ -5,3 +5,7 @@ connect=function(){
 //connect()
 
 //now we will make an iife 
+connected=(function(){
+    console.log("Database Connected");
+})
+()
