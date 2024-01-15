@@ -1,8 +1,12 @@
+JS EXECUTION CONTEXT 
 Global execution context
 ==this
 
-two phases==memory allocation
-          ==excecution phases
+two phases ==memory allocation
+           ==excecution phases
+           
+           //not that much but 
+           ==Eval execution context
 
 js is single threaded language
 works on stack memory ie LIFO
