@@ -17,3 +17,5 @@ no=10 ?? 4
 console.log(no);// used when database is involved
 
 //ternary operator
+ age=32
+ age>=50 ? console.log("false") : console.log("true");
