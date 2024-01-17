@@ -17,10 +17,10 @@ for(age;age<20;age++)
 {
     if(age==18)
     {
-        console.log("adult now");
+        //console.log("adult now");
         break;
     }
-    console.log(age);
+    //console.log(age);
 }
 //continue
 age=0
@@ -28,11 +28,15 @@ for(age;age<=20;age++)
 {
     if(age==18)
     {
-        console.log("adult now");
+        //console.log("adult now");
         continue;
     }
-    console.log(age);
+    //console.log(age);
 }
 
 //array
-myarray=["1","2","3"]
+myarray=["jimin","V","JK"]
+for(i=0;i<myarray.length;i++)
+{
+    console.log(myarray[i]);
+}
