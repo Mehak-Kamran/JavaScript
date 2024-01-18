@@ -8,8 +8,15 @@ i++
 myarray=["alif","jimin","baluga"]
 let j=0
 while(j<myarray.length){
-    console.log(myarray[j]);
+    //console.log(myarray[j]);
     j++
 }
+//dowhile
+arr=["jimin","V","jin"]
+let k=0
+do{
+    console.log(arr[k]);
+    k++
+}while(k<arr.length)
 
 
