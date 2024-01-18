@@ -48,10 +48,17 @@ for (const [key] in hayungline) {
 
 let family=["baluga","mama","mr bro","miss shuishui","tenaga","jimin"]
 family.forEach(function(item){
-    console.log(item);
+    //console.log(item);
 })
 
 //or
+skill=["php","nodejs","react"]
+
+function fun(item){
+ console.log(item);
+}
+
+skill.forEach(fun)
 
 
 
