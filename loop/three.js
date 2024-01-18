@@ -38,6 +38,20 @@ hayungline={
     2: "namjoon"
 }
 for (const [key] in hayungline) {
-    console.log(hayungline[key]);
+   // console.log(hayungline[key]);
     
 }
+
+//u can use for in as in arry and in map too same technique
+
+//now for each used in array
+
+let family=["baluga","mama","mr bro","miss shuishui","tenaga","jimin"]
+family.forEach(function(item){
+    console.log(item);
+})
+
+//or
+
+
+
