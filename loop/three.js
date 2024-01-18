@@ -54,11 +54,38 @@ family.forEach(function(item){
 //or
 skill=["php","nodejs","react"]
 
-function fun(item){
- console.log(item);
+function fun(item,index,array){
+ //console.log(item,index,array);//or u can only use item 
 }
 
 skill.forEach(fun)
+
+// now one more 
+let kpop=[
+    bts={
+        mem:7,
+        vocal:"jimin"
+    },
+    bp={
+        mem:4,
+        vocal:"rose"
+    },
+    twice={
+        mem:10,
+        vocal:"neong"
+    }
+]
+kpop.forEach((item)=>{
+    console.log(item.vocal);
+})
+
+
+
+
+
+
+
+
 
 
 
