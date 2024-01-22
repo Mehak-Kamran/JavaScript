@@ -1,6 +1,23 @@
+////1
 1== console.log(window)
 2==console.log(document)
 3==console.log(dir.document)
 4==console.log(document.baseURI)
 5==console.log(document.links)
 6==console.log(document.links[2])
+
+/////2
+
+document.getElementById("title")
+<h1 class=​"one" id=​"title">​ hello world​</h1>​
+
+document.getElementById('title')
+<h1 class=​"one" id=​"title">​ hello world​</h1>​
+document.getElementById('title').id
+'title'
+document.getElementById('title').class
+undefined
+document.getElementById('title').classname
+undefined
+document.getElementById('title').className
+'one'
