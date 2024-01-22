@@ -21,3 +21,53 @@ document.getElementById('title').classname
 undefined
 document.getElementById('title').className
 'one'
+document.getElementById('title').setAttribute('class' ,'toto')
+undefined
+document.getElementsByClassName('toto')
+HTMLCollection [h1#title.toto, title: h1#title.toto]
+
+
+const title=document.getElementById('id')
+let hat=document.getElementById('top')
+undefined
+hat
+<p id=​"top">​…​</p>​
+hat.innerText
+'lorem ipsum'
+hat.textContent
+'lorem ipsum if you know you know  you do'
+hat.innerHTML
+'lorem ipsum <span style="display:none" ;="">if you know you know  you do</span>'
+hat.outerHTML
+'<p id="top">lorem ipsum <span style="display:none" ;="">if you know you know  you do</span></p>'
+
+cument.querySelector('h1')
+<h1 class=​"one" id=​"title">​ hello world​</h1>​
+document.querySelector('id')
+null
+document.querySelector('#title')
+<h1 class=​"one" id=​"title">​ hello world​</h1>​
+document.querySelector('.one')
+<h1 class=​"one" id=​"title">​ hello world​</h1>​
+
+
+document.querySelector('ul')
+<ul>​…​</ul>​
+document.querySelector('li')
+<li>​…​</li>​
+const rar=document.querySelector('li')
+undefined
+rar.style.backgroundColor='green'
+'green'
+document.querySelectorAll('ul')
+NodeList [ul]0: ullength: 1[[Prototype]]: NodeListentries: ƒ entries()forEach: ƒ forEach()length: 1name: "forEach"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]item: ƒ item()keys: ƒ keys()length: (...)values: ƒ values()constructor: ƒ NodeList()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "NodeList"get length: ƒ length()[[Prototype]]: Object
+document.querySelectorAll('li')
+NodeList(2) [li, li]
+const temp=document.querySelectorAll('li')
+undefined
+temp
+NodeList(2) [li, li]
+temp[0].style.backgroundColor='green'
+'green'
+temp[1].style.backgroundColor='orange'
+'orange'
