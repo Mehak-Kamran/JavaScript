@@ -1,0 +1,19 @@
+
+.Tbutton{
+    background-color: lightskyblue;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: lightskyblue;
+}
+
+.light{
+    color:black;
+    background-color: white;
+}
+
+.dark{
+    color:white;
+    background-color: black;
+    
+}
