@@ -1,0 +1,31 @@
+.bod{
+    background-color: #51355A;
+}
+
+
+.boxes{
+       background-color: antiquewhite;
+       width: 50vmin;
+       height:50vmin;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       display: flex;
+       margin-top: 25vmin;
+       margin-left: 70vmin;
+       padding: 10px;
+       
+}
+.box{
+    width: 15vmin;
+    height: 15vmin;
+    margin: 2px;
+
+}
+.reset{
+    background-color: #9E2B25;
+    color: #2A0C4E;
+    border-radius: 5px;
+    position: absolute;
+    
+}
