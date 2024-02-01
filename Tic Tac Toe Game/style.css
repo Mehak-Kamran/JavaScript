@@ -13,7 +13,7 @@
        flex-wrap: wrap;
        justify-content: center;
        display: flex;
-       margin-top: 25vmin;
+       margin-top: 15vmin;
        margin-left: 70vmin;
        padding: 10px;
      
@@ -35,17 +35,18 @@
     color: #2A0C4E;
     border-radius: 5px;
     border:none;
-    width: 80px;
+    width: 10vme;
     height: 40px;
     margin-right:  55px;
-
-
-    
+    font-size: 2.5vmin;
+    color: beige;
+    font-weight: 100;  
     
 }
 
 .print{
     color:red;
     font-size: 8vmin;
+    
     
 }

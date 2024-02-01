@@ -1,9 +1,3 @@
-const disable=()=>{
-    for(let i of box){
-        i.disabled=true;
-    }
-}
-msg=document.querySelector(".print")
 winningpattern=[
     [0,1,2],
     [3,4,5],
@@ -15,9 +9,8 @@ winningpattern=[
     [2,5,8]
 ]
 
-
-
 turnX=true
+
 box=document.querySelectorAll(".box")
 console.log(box)
 box.forEach((box) => {
@@ -37,6 +30,8 @@ box.forEach((box) => {
     })
     
 });
+
+
 const checkwinner=function (){
 
 
@@ -52,14 +47,35 @@ for(let pattern of winningpattern){
             msg.innerText='Congratulation You are a Winner'
             disable();
         }
-       }
-  
+    }
 
 }
-
-   
-
-  
    }
 
+   const disable=()=>{
+    for(let i of box){
+        i.disabled=true;
+    }
+}
+
+rbutton=document.querySelector(".reset")
+
+   enabled=()=>{
+       for(let i of box){
+           i.disabled=false;
+           i.innerText=""
+           }
+   
+   }
+   
+   resetbutton=()=>{
+       turnX=true;
+       enabled();
+       msg.innerText=''
+   }
+   
+msg=document.querySelector(".print")
+
+
+rbutton.addEventListener("click", resetbutton)
 
