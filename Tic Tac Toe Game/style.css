@@ -1,10 +1,12 @@
 .bod{
     background-color: #51355A;
+    text-align: center;
+    
 }
 
 
 .boxes{
-       background-color: antiquewhite;
+       
        width: 50vmin;
        height:50vmin;
        display: flex;
@@ -14,18 +16,36 @@
        margin-top: 25vmin;
        margin-left: 70vmin;
        padding: 10px;
-       
+     
+      
 }
 .box{
     width: 15vmin;
     height: 15vmin;
     margin: 2px;
+    background-color: palegoldenrod;
+    border-radius: 8px;
+    border: none;
+    font-size: 8vmin;
+    color:red
 
 }
 .reset{
     background-color: #9E2B25;
     color: #2A0C4E;
     border-radius: 5px;
-    position: absolute;
+    border:none;
+    width: 80px;
+    height: 40px;
+    margin-right:  55px;
+
+
+    
+    
+}
+
+.print{
+    color:red;
+    font-size: 8vmin;
     
 }
