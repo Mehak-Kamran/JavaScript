@@ -26,6 +26,7 @@ box.forEach((box) => {
         }
         box.disabled=true
         checkwinner();
+        checkdraw();
 
     })
     
@@ -44,14 +45,45 @@ for(let pattern of winningpattern){
        {
         if(pos1===pos2 && pos2===pos3)
         {
-            msg.innerText='Congratulation You are a Winner'
-            disable();
+           status='win'
+           msgprint(); 
+           return;
         }
     }
 
 }
    }
 
+   checkdraw=function(){
+    isdraw=true;
+     for(i=0;i<9;i++){
+        if(box[i].innerText===''){
+
+        
+        isdraw=false;
+        break;
+        }
+     }
+     if(isdraw){
+        status="draw"
+        msgprint();
+     }
+
+    }
+msgprint=()=>{
+    if(status==='win')
+    {
+        msg.innerText='Congratulation You are a Winner'
+        disable();
+    }
+else if(status==='draw'){
+    msg.innerText='Game is Draw'
+            disable();
+
+}
+}
+
+   
    const disable=()=>{
     for(let i of box){
         i.disabled=true;
@@ -71,7 +103,8 @@ rbutton=document.querySelector(".reset")
    resetbutton=()=>{
        turnX=true;
        enabled();
-       msg.innerText=''
+       msg.innerText='Tic Tac Toe Game'
+
    }
    
 msg=document.querySelector(".print")
