@@ -25,8 +25,8 @@ box.forEach((box) => {
             turnX=true
         }
         box.disabled=true
+       checkdraw();
         checkwinner();
-        checkdraw();
 
     })
     
@@ -56,20 +56,19 @@ for(let pattern of winningpattern){
 
    checkdraw=function(){
     isdraw=true;
-     for(i=0;i<9;i++){
+     for(i=0;i<box.length;i++){
         if(box[i].innerText===''){
-
-        
         isdraw=false;
         break;
         }
+    
      }
      if(isdraw){
         status="draw"
         msgprint();
      }
-
     }
+    
 msgprint=()=>{
     if(status==='win')
     {
@@ -78,12 +77,11 @@ msgprint=()=>{
     }
 else if(status==='draw'){
     msg.innerText='Game is Draw'
-            disable();
+    disable();
 
 }
 }
 
-   
    const disable=()=>{
     for(let i of box){
         i.disabled=true;
