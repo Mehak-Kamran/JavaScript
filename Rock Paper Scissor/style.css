@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #000066;
+    color: #FFFFFF;
+}
+
+.choice{
+    font-size: 15vmin;
+    margin: 2vmin;
+    
+}
+.choice:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 64vmin;      
+}
+.game{
+    background-color: #FFFFFF;
+}
+
+.msg{
+    margin:auto;
+    background-color: #000066;
+    border-radius: 30px;
+    font-size: 30px;
+    width: 20%;
+    color: #FFFFFF;
+
+}
+.scor{
+    margin-bottom: 5%;
+    display: inline;
+    float: right;
+    position: absolute;
+    font-size: 5vmin;
+    color: #000066;
+}
+
+.result{
+    width: 50%;
+    margin-bottom: 20%;
+    margin-top: 5%;
+    background-color: #000066;
+    
+}
+
+#userscor{
+    width: 20%;
+    margin-left:20%;
+}
+
+#compscor{
+    margin-left: 13%;
+}
+
+.opt{
+    background-color: #000066;
+    margin: auto;
+    height: fit-content;
+    width: 20%;
+    border-radius: 2vmin;   
+    
+}
+.user{
+    margin-bottom: 0.4vmin;
+    font-size: 3vmin;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.ctitle{
+    margin-top: 1vmin;
+    margin-bottom: 4vmin;
+    padding-bottom: 2px;
+    font-size: 3vmin;
+    color: #FFFFFF;
+    font-weight: bolder;
+    
+}
