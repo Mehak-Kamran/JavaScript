@@ -71,7 +71,7 @@ let student=new user("mak","ayesha@gmail.com")
 class admin extends user{
 
     constructor(name,email){
-        super("admin name","admin@gmail.com")
+        super(name,email)
     }
 editdata(){
             Data="you edit data"
@@ -79,3 +79,26 @@ editdata(){
          }
 }
 let admin1=new admin("admin name","admin@gmail.com")
+
+
+class kpop{
+    constructor(bandname,bandmembers){
+       this.bandname=bandname
+       this.bandmembers=bandmembers
+    }
+    welcome(){
+        console.log("Welcome to Kpop")
+    }
+}
+let group=new kpop("BTS",7)
+
+class BTS extends kpop{
+
+    constructor(bandname,bandmembers){
+        super(bandname,bandmembers)
+     }
+   hey(){
+    console.log("hey we are Bts")
+   }
+}
+let b=new BTS("exo","8")
