@@ -38,19 +38,44 @@
 
 //inheritance 
 
-class Person{
-    sleep(){
-        console.log("sleep");
+// class Person{
+//     sleep(){
+//         console.log("sleep");
+//     }
+//     eat(){
+//         console.log("eat");
+//     }
+// }
+
+// class engineer extends Person{
+//     work(){
+//         console.log("build diffrent new things");
+//     }
+// }
+
+// let obj=new engineer();
+
+//practice problem
+Data="Some data "
+class user{
+    constructor(name,email){
+       this. name=name
+        this.email=email
     }
-    eat(){
-        console.log("eat");
+    viewdata(){
+        console.log(Data)
     }
 }
+let student=new user("mak","ayesha@gmail.com")
 
-class engineer extends Person{
-    work(){
-        console.log("build diffrent new things");
+class admin extends user{
+
+    constructor(name,email){
+        super("admin name","admin@gmail.com")
     }
+editdata(){
+            Data="you edit data"
+            console.log(Data)
+         }
 }
-
-let obj=new engineer();
+let admin1=new admin("admin name","admin@gmail.com")
