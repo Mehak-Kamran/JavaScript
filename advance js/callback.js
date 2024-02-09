@@ -53,25 +53,48 @@
 //     },5000)})
 // }
     
-function getdata(id){
+// function getdata(id){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("data ",id)
+//             resolve("success")
+//         },3000)
+
+//     })
+// }
+
+// getdata(1).then((res)=>{
+//      return getdata(2)
+// }).then((res)=>{
+//     return getdata(3)
+// }).then((res)=>{
+//     console.log("success")
+// })
+
+    
+//asyn await
+
+function api(id){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            console.log("data ",id)
+            console.log("data of",id)
             resolve("success")
+
         },3000)
+
 
     })
 }
 
-getdata(1).then((res)=>{
-     return getdata(2)
-}).then((res)=>{
-    return getdata(3)
-}).then((res)=>{
-    console.log("success")
-})
-
-    
-
+(async function fun (){
+    console.log("fetching data1.......")
+    await api(1)
+    console.log("fetching data2.......")
+    await api(2)
+    console.log("fetching data3.......")
+    await api(3)
+    console.log("fetching data4.......")
+    await api(4)
+ })();
 
 
