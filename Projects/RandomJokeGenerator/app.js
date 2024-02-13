@@ -12,7 +12,14 @@ button.addEventListener("click", async (event)=>{
     let punchline=api.punchline 
     joke=setup+punchline
     console.log(joke)
-    jokecontainer.innerText=joke
+    j=joke;
+    p="😹😹";
+    k=j+p;
+    jokecontainer.innerText=k;
+    jokecontainer.style.padding= "5%";
+    
+    
+    
 
 
 })

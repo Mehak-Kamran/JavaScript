@@ -4,7 +4,7 @@
 }
 
 img{
-    max-width: 20vmin;
+    max-width: 30vmin;
     border-radius: 50%;
 
 }
@@ -16,16 +16,18 @@ body{
 }
 .click{
     
-    width: 100%;
+    width: 70%;
     margin: 10%;
-    margin-left: 5%;
-    padding: 0.5rem;
+    margin-left: 10%;
     background-color: #FF5254;
     color: white;
     font-weight: 600;
-    border-color: #FF5254;
-    border-radius: 10%;
     border-style: solid;
+    padding: 10px 20px; /* Adjust padding to suit your design */
+    font-size: 16px; /* Adjust font size as needed */
+    border: none;
+    border-radius: 10px; /* Adjust border radius as needed */
+    cursor: pointer;
 
     
 }
@@ -34,10 +36,19 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin:10%;
+    margin:5%;
     width: 20%;
     padding: 5%;
     background-color: #ffc574;
     border-radius: 5%;
+    
+}
+.displayjoke{
+    border-radius: 10px;
+    margin-top: 10px; 
+    background-color:#fa9405    
+}
+.jokecontainer{
+    font-weight: 200;
 }
 
