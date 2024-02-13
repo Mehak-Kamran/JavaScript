@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 20vmin;
+    border-radius: 50%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCB653;
+}
+.click{
+    
+    width: 100%;
+    margin: 10%;
+    margin-left: 5%;
+    padding: 0.5rem;
+    background-color: #FF5254;
+    color: white;
+    font-weight: 600;
+    border-color: #FF5254;
+    border-radius: 10%;
+    border-style: solid;
+
+    
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10%;
+    width: 20%;
+    padding: 5%;
+    background-color: pink;
+}
+
