@@ -12,10 +12,26 @@ body{
 .sp1{
     color: #FFFC31;
 }
-.copy{
-    width: 20px;
-
+.dis{
+    background-color: #fff;
+    width: 25%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:7px;
+    margin-bottom:10px ;
+    margin-top: 10px;
 }
-#in{
-    max-width: 30%;
+.dis img{
+    width: 5%;
+    margin-right: 5%;
+    
+    
+}
+.dis input{
+    border: 0;
+    outline: 0;
+    
+    
 }
