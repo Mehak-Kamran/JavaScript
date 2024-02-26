@@ -3,14 +3,14 @@
     padding: 0;
 }
 body{
-    background-color: #5C415D;
+    background-color: #0B5563;
 }
 .maincontainer{
     margin: 10%;
     color: #fff;
 }
 .sp1{
-    color: #FFFC31;
+    color: #A1E8AF;
 }
 .dis{
     background-color: #fff;
@@ -34,4 +34,15 @@ body{
     outline: 0;
     
     
+}
+.bttn{
+    border: none;
+    background-color: #A1E8AF;
+    border-radius: 10px;
+    color: #0B5563;
+    padding: 8px;
+    font-weight: bold;
+    
+
+
 }
