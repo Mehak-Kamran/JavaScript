@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: cornflowerblue;
+
+}
+
+div{
+    background-color: aliceblue;
+    width: 400px;
+    height:400px;
+    margin:100px auto ;/* made the div in center*/
+    border-radius: 5px;
+
+    
+}
+
+
+img{
+    width: 200px;
+    height:200px;
+    display: block;/* made the image in center of div*/
+    margin: auto;
+    padding-top: 10px;
+}
+
+#state{
+    text-align: center;
+    margin: 5px;
+}
+#bttn{
+    border-radius: 5px;
+    background-color: rgb(98, 98, 238);
+    color: black;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+    
+    font-size: large;
+    
+}
+
+.nam{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
