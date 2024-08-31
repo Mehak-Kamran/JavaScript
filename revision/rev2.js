@@ -101,15 +101,29 @@ var newarr2=arr2.find((item)=>{
 console.log(newarr2)
 
 //class
-class Person{
-    constructor(name,age){
-        this.name= name;
-        this.age=age;
-    }
-    details(){
-        console.log(this.name,"is",this.age,"years old")
-    }
-}
 
-let p1=new Person("mak",12)
-p1.details()
+//template
+class person{
+    constructor(name,age){
+       this.name=name;
+       this.age=age;
+    }
+
+    details(){
+        console.log(this.name,"is",this.age,"years old");
+    }
+
+}
+let p1=new person("Jane",12)
+p1.details();
+
+
+//async await
+
+ async function api(){
+    let data= await fetch("https://dummyjson.com/test")
+    let output=data.json()
+    console.log(output)
+}
+api();
+
