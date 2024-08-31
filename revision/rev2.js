@@ -44,3 +44,25 @@ let erg=()=>{
 console.log("this is arrow function")
 }
 erg()
+
+//object
+var obj={}//blank obj
+console.log(obj)
+var obj1={
+    name:"mak",
+    class:2,
+    work:function(){
+        console.log("study")
+    }//method
+
+    
+}
+console.log(obj1)
+console.log(obj1.work)
+obj1.name="kam"
+console.log(obj1.name)
+
+
+//obj destructuring
+const {name}=obj1
+console.log(name)
