@@ -66,3 +66,36 @@ console.log(obj1.name)
 //obj destructuring
 const {name}=obj1
 console.log(name)
+
+//arrays
+
+//foreach
+var arr=["mak","pet",2,{model:10,color:"white"},[a,b,c]]
+arr.forEach((item)=>{
+    console.log(item)
+})
+
+//map
+var arr=[1,"hash"]
+const newarr=arr.map((item)=>{
+    return item
+})
+console.log(newarr)
+
+//filter
+var arr1=[1,2,3,4,5,6,7,8,9,10]
+const newarr1=arr1.filter((item)=>{
+    if(item<=5)
+        return item
+})
+console.log(newarr1)
+
+//find
+var arr2=[3,2,4,5,2]
+var newarr2=arr2.find((item)=>{
+    if(item==2){
+        return item
+    }
+})
+
+console.log(newarr2)
