@@ -20,7 +20,7 @@ function abcd(){
         let f=5 // braces scoped
         console.log(e,f,d)
     }
-    console.log(e,f)
+    
     
 }
 abcd()
@@ -28,3 +28,19 @@ abcd()
 
 // var add itself in window obj which is highly insecure for data privacy thats why let and const 
 //were introduced which if defined in script.js will not add themself in window obj
+
+//simple function
+let fun=function(){
+    console.log("one way of defining function")
+}
+fun()
+
+function xyz(){
+    console.log("second way of defining function")
+}
+xyz()
+//arrow function 
+let erg=()=>{
+console.log("this is arrow function")
+}
+erg()
